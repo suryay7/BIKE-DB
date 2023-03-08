@@ -1,0 +1,59 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    background-image: url("https://images.pexels.com/photos/2341567/pexels-photo-2341567.jpeg?auto=compress&cs=tinysrgb&w=600");
+
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin: 40px auto;
+    padding: 5px;
+    box-shadow: 0 16px 16px rgb(16, 15, 15);
+    }
+    
+    
+    .login-label{
+    margin-top: 20px;
+    color: rgb(254, 249, 249);
+    font-size:150%;
+    font-weight:bold;
+    font-style: italic;
+    }
+    
+    
+    .login-button{
+    margin-top: 25px;
+    }
+    
+    
+    .login-input {
+    margin: 10px auto;
+    width: 50%;
+    height: 20px;
+    background-image: url("https://images.pexels.com/photos/2341558/pexels-photo-2341558.jpeg?auto=compress&cs=tinysrgb&w=600");
+    box-shadow: 0 8px 8px #bab4b4;
+
+    border-radius: 20%;
+    size: 200%;
+    }
+    
+    
+.login-button {
+    color: #fff;
+    background-color: #d69635;
+    padding: 10px 35px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    box-shadow:0 6px 6px #e5d8a9;
+}
+
+.login-label,.login-input
+{
+    background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=mo5mWNPY&id=FB4BD67740E6F17542E8A240461A25505E8C7034&thid=OIP.mo5mWNPYe69xwz9Hwh4MIgHaEo&mediaurl=https%3a%2f%2fwallpapercave.com%2fwp%2fwp4016039.jpg&exph=1200&expw=1920&q=Cinema+background&simid=608031773152520873&FORM=IRPRST&ck=D29A5E84BBA00BFFBD5B7228B41A2879&selectedIndex=30")
+}
